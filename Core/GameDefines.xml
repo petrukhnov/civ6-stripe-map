@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Maps>
+    <Update>
+			<Where MapSizeType="MAPSIZE_DUEL"/>
+			<Set>
+				<GridWidth>20</GridWidth>
+				<GridHeight>3</GridHeight>
+				<PlateValue>1</PlateValue>
+			</Set>
+		</Update>
+    <Update>
+			<Where MapSizeType="MAPSIZE_TINY"/>
+			<Set>
+				<GridWidth>40</GridWidth>
+				<GridHeight>3</GridHeight>
+				<PlateValue>1</PlateValue>
+			</Set>
+		</Update>
+		<Update>
+			<Where MapSizeType="MAPSIZE_SMALL"/>
+			<Set>
+				<GridWidth>70</GridWidth>
+				<GridHeight>3</GridHeight>
+				<PlateValue>2</PlateValue>
+			</Set>
+		</Update>
+		<Update>
+			<Where MapSizeType="MAPSIZE_STANDARD"/>
+			<Set>
+				<GridWidth>150</GridWidth>
+				<GridHeight>3</GridHeight>
+				<Continents>2</Continents>
+			</Set>
+		</Update>
+		<Update>
+			<Where MapSizeType="MAPSIZE_LARGE"/>
+			<Set>
+				<GridWidth>300</GridWidth>
+				<GridHeight>3</GridHeight>
+				<PlateValue>3</PlateValue>
+				<Continents>3</Continents>
+			</Set>
+		</Update>
+		<Update>
+			<Where MapSizeType="MAPSIZE_HUGE"/>
+			<Set>
+				<GridWidth>500</GridWidth>
+				<GridHeight>3</GridHeight>
+				<Continents>3</Continents>
+			</Set>
+		</Update>
+	</Maps>
+	
+</GameData>

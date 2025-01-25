@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="F1E1D911-ACCA-B1BA-BABA-D05323DAE06B" version="1">
+  <Properties>
+    <Name>Sripe Maps</Name>
+    <Description>Changes map to height 3. Make map a wide stripe. Smaller number of continents.[NEWLINE] Should work with most mods and DLCs. [NEWLINE] Map width: 30/70/150/300/500. Number of continents reduced.[NEWLINE] Not all map types works. Sometimes continent could be surrounded with ice (you will need to warmup planet to actually win the game).[NEWLINE]</Description>
+    <Created>1689249507</Created>
+    <Teaser>Extreme vertical pressure.</Teaser>
+    <Authors>Konstantin Petrukhnov</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions />
+  <InGameActions>
+    <UpdateDatabase id="InGameDatabase">
+      <File>Core/GameDefines.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Core/GameDefines.xml</File>
+  </Files>
+</Mod>
